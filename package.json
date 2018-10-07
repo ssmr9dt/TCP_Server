@@ -1,0 +1,16 @@
+{
+  "name": "ssmr9dt-tcpserver",
+  "version": "1.0.0",
+  "description": "tcp server nodejs ver.",
+  "main": "server.js",
+  "dependencies": {
+    "@ssmr9dt/hotdeploy": "^1.1.0",
+    "@ssmr9dt/hotreload": "^1.0.5"
+  },
+  "scripts": {
+    "test": "node test/test_command.js",
+    "start": "node server.js"
+  },
+  "author": "ssmr9dt <ssmr9dt@gmail.com>",
+  "license": "mit"
+}
